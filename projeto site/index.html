@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal-English Academy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #fcf8ff;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: #08629e;
+            color: white;
+        }
+
+        .header-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .main-section {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('https://wallpapercat.com/w/full/9/3/e/698026-2790x1860-desktop-hd-harvard-university-background-image.jpg') no-repeat center center/cover;
+            height: 80vh;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .main-text {
+            background: rgba(0, 0, 0, 0.356);
+            padding: 30px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background: white;
+        }
+
+        .features div {
+            max-width: 250px;
+            text-align: center;
+        }
+
+        .features h3 {
+            color: #1e3b8b;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #064874;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .features div {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-title">English Academy</div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main-section">
+        <div class="main-text">
+            <h1>Bem-vindo, encontre aqui a melhor maneira de aprender inglês!</h1>
+            <p>Aprender um novo idioma não é apenas aprender novas palavras para as mesmas coisas, mas aprender outra
+                maneira de pensar sobre as coisas!</p>
+        </div>
+    </section>
+    <section class="features">
+        <div>
+            <h3>Aulas EAD</h3>
+            <p>Disponibilizamos aulas EAD de acordo com os a sua disponibilidade.</p>
+        </div>
+        <div>
+            <h3>Cursos de Extensão</h3>
+            <p>Aulas para niveis intermediário e avançado com intuito de aprimorar suas habilidades.</p>
+        </div>
+        <div>
+            <h3>Teste de nivelamento</h3>
+            <p>Faça uma prova e descubra em qual nível pode ingressar na nossa instituição.</p>
+        </div>
+        <div>
+            <h3> sobre o nosso método</h3>
+            <p>Venha fazer uma aula experimental e te explicamos de perto sobre o método que usamos.</p>
+        </div>
+    </section>
+    <footer>
+        <p>Para mais informações nos comunique em (54)9275-3639</p>
+    </footer>
+</body>
+
+</html>
